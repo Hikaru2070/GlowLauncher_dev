@@ -1,0 +1,15 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "GlowLauncher"
+
+[ejs.landing]
+
+[ejs.settings]
+sourceGithubLink = "https://github.com/Hikaru2070/GlowLauncher"
+supportLink = "https://discord.gg/TestLink_1234"
+
+[ejs.welcome]
+welcomeHeader = "ようこそ、GlowLauncherへ"
+welcomeDescription = "誰でも簡単にサーバーMODが導入できる、そんなランチャーです。"
+welcomeDescCTA = "数クリックでサーバーへ参加する準備が整います。"
