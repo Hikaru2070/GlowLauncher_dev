@@ -3057,7 +3057,7 @@ input:checked + .toggleSwitchSlider:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 27px;
+    height: 54px;
 }
 
 /* Divider bar between the external and internal icons. */
@@ -3074,8 +3074,8 @@ input:checked + .toggleSwitchSlider:before {
     height: 12px;
     transition: 0.25s ease;
     cursor: pointer;
-    height: 12px;
-    width: 25px;
+    /* height: 12px;
+    width: 25px; */
 }
 .mediaSVG:hover,
 .mediaURL:focus .mediaSVG,
@@ -3105,12 +3105,13 @@ input:checked + .toggleSwitchSlider:before {
 /* Settings icon colors. */
 #settingsSVG {
     stroke: #ffffff;
-    height: 15px;
+    height: 35px;
+    width: 45px;
 }
 .mediaButton:hover #settingsSVG,
 .mediaButton:focus #settingsSVG,
 .mediaButton:active #settingsSVG {
-    height: 23px;
+    height: 45px;
 }
 
 /* Settings tooltip styles. */
@@ -3124,7 +3125,7 @@ input:checked + .toggleSwitchSlider:before {
     border-radius: 4px;
     position: absolute;
     z-index: 1;
-    right: 130%;
+    right: 60px;
     font-size: 12px;
     line-height: 20px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
